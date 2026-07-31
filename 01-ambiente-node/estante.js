@@ -11,7 +11,16 @@ const livro2 = {
     titulo: "Aviões: Herois do Fogo",
     autor: "Dusty Voo Rasante",
     preco: 99.9,
-    estoque: 0,
+    estoque: 4,
 };
 
-module.exports = { livro1, livro2 };
+// ===== LIVRO 3 =====
+const livro3 = {
+    titulo: "As trapalhadas de Leonardo",
+    autor: "Leonardo Correia",
+    preco: 49.50,
+    estoque: 10,
+}
+
+
+module.exports = { livro1, livro2, livro3 };
